@@ -1,0 +1,10 @@
+﻿class BasePage {
+  constructor(url){
+    
+  }
+  printMessage(mes){
+    Log.Message(mes);
+  }
+}
+
+module.exports.BasePage = BasePage;

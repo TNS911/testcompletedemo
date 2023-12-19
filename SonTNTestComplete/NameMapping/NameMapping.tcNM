@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{275CD373-8B83-431C-95A9-34B3477BEA30}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{B4D8FC28-9782-41F7-AE7E-2D9E4D313F2C}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{7EBD08D4-CA48-4BBB-904A-C1D7268B755B}">
+								<Image FileName="204211492" Left="0" Top="0" Right="1920" Bottom="1080" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageHNgDNSDNgTestcompleteKiMThWe" Key="{4813D8C0-1FD8-42A6-9131-147B86DC6B62}">
+								<Image FileName="204211492" Left="0" Top="0" Right="1920" Bottom="1080" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.youtube.com/watch*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelTrNhPhTVideoYoutubeCh" Key="{26021084-4E13-4EAE-963B-A83CFECF22EA}">
+										<Image FileName="1955631429" Left="0" Top="0" Right="1921" Bottom="1080" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#movie_player" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;html5-video-player&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ytd-player/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageFacebookNgNhPHoCNgK" Key="{F47BC385-9EEF-489C-BB7A-94C8E06360FF}">
+								<Image FileName="-1421084610" Left="0" Top="109" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.facebook.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formU02H7" Key="{C93DF608-E056-441F-B41D-D68CADE6445D}">
+										<Image FileName="-1421084610" Left="1042" Top="251" Right="1438" Bottom="567" />
+										<Selectors>
+											<Selector>
+												<Value Value="#u_0_2_H7" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Đăng nhập&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;_9vtf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailHoCSINThoI" Key="{2A0BA249-0A1F-4A2C-9B52-50F09EB422F7}">
+										<Image FileName="-1421084610" Left="1058" Top="257" Right="1422" Bottom="309" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//div/input[contains(@class, &apos;inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;u_0_2_H7&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxMTKhU" Key="{58E60749-2FCD-40F4-B6A0-B3DF0E3EA018}">
+										<Image FileName="826537483" Left="1075" Top="336" Right="1375" Bottom="358" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pass" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;pass&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//div[2]//input[contains(@class, &apos;inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;passContainer&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGemVietnamTMTrNGoogle" Key="{6BD1CC50-C9EB-4EEF-AAC3-A82F1D5F758E}">
+								<Image FileName="2095237316" Left="8" Top="117" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{A17D6227-2D92-4C72-A8C7-0C2BAB1D9DD7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com.vn/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelResultStats" Key="{FB59A8E0-4BBA-40F3-B8DD-65C57E54C32D}">
+										<Image FileName="2095237316" Left="238" Top="262" Right="495" Bottom="305" />
+										<TypeInfo Item0="{5516C576-8A40-4005-AFC6-ACB1F4B1F549}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#result-stats" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[text()=&apos;Khoảng 31.600.000 kết quả&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;slim_appbar&apos;]//div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="chrome" Key="{08B5F4C4-173D-4EED-86CA-D33312745F45}">
+						<TypeInfo Item0="{F09000E3-923E-4603-8AC1-F29F712E5A2B}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="chrome" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageFindWebObjectsTestcompleteDo" Key="{31EC337C-35FE-469A-9532-90724ADF6264}">
+								<Image FileName="-504541853" Left="8" Top="117" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{A17D6227-2D92-4C72-A8C7-0C2BAB1D9DD7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://support.smartbear.com/testcomplete/docs/app-testing/web/general/common-tasks/finding-objects/index.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cell" Key="{3E67261D-A217-4E72-B37C-983032B56732}">
+										<TypeInfo Item0="{565A8D86-45B5-4341-A2A6-637493762D85}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Yes&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{B24636F4-4EB3-4C9D-AA1B-959A22611141}">
+								<Image FileName="95652724" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageWwwGoogleCom" Key="{F5517F5F-92E6-403A-8469-40B42E918DF9}">
+								<Image FileName="-323343063" Left="0" Top="109" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSearch" Key="{E395AD13-087E-4C5E-BC4F-90928C5CA0B1}">
+										<Image FileName="1461301141" Left="20" Top="479" Right="1900" Bottom="621" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaSearch" Key="{C3A74DF0-EDDC-4F05-9F80-181F2D2FA9F2}">
+										<Image FileName="1461301141" Left="716" Top="497" Right="1159" Bottom="524" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#APjFqb" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@aria-label=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@title=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;gLFyf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSearch" Key="{1F85BD85-4ECB-4418-B462-12C00A982FF1}">
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelAbout32700000Results" Key="{E98CEE11-FFDB-456E-9C07-44BF5C9AD226}">
+										<Image FileName="-632683961" Left="230" Top="242" Right="882" Bottom="285" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;LHJvCe&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;slim_appbar&apos;]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCnt" Key="{8848A03C-AD55-4AC8-9310-19FEDF0B1435}">
+										<Image FileName="924113109" Left="0" Top="109" Right="1903" Bottom="2035" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#cnt" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;e9EfHf&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelResultStats" Key="{E0FEFA16-9D70-4D74-8B8A-179638A20BBA}">
+										<Image FileName="-165931107" Left="230" Top="242" Right="497" Bottom="285" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#result-stats" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[text()=&apos;About 32,700,000 results&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;slim_appbar&apos;]//div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCenterCol" Key="{89192901-09A6-48F6-B1BC-0C24D134F5AD}">
+										<Image FileName="1066599225" Left="230" Top="285" Right="882" Bottom="2035" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#center_col" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;rcnt&apos;]/div[contains(@class, &apos;s6JM6d&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGsr" Key="{DD31EE31-525A-46EF-9B21-26D75AEF1E04}">
+										<Image FileName="-1952048092" Left="0" Top="109" Right="1903" Bottom="2035" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#gsr" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Explore Opportunities · Korean Business Analyst · Kỹ sư cầu ...&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;srp&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelResultStats2" Key="{6569F9DF-0C66-4601-B3A4-F3F7ED25A854}">
+										<Image FileName="1653909460" Left="238" Top="250" Right="506" Bottom="293" />
+										<TypeInfo Item0="{5516C576-8A40-4005-AFC6-ACB1F4B1F549}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#result-stats" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[text()=&apos;About 31,600,000 results&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;slim_appbar&apos;]//div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogle" Key="{F2B36CF0-EB02-4777-94E0-08003EEFBFEB}">
+								<Image FileName="1197200747" Left="0" Top="109" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com.vn/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSearch" Key="{B2DF264B-A5CF-4D95-9821-577032CC83D2}">
+										<Image FileName="1197200747" Left="20" Top="479" Right="1900" Bottom="621" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaTMKiM" Key="{9C4CF7D4-7337-45A9-B5B7-7EC0A441D078}">
+										<Image FileName="1197200747" Left="716" Top="497" Right="1119" Bottom="524" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#APjFqb" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@title=&apos;Tìm kiếm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;gLFyf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogleMaps" Key="{A849CFBD-50F0-4F65-B57C-EF64A0F5B896}">
+								<Image FileName="218796208" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir/@21.0263056,105.8146853,13z*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxChooseStartingPointOrClic" Key="{BBF1E12A-0DC5-4C74-B1A8-EF447A2058D2}">
+										<Image FileName="218796208" Left="144" Top="201" Right="408" Bottom="225" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//input[contains(@class, &apos;tactile-searchbox-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sb_ifc50&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{EF0DD031-E43A-41D9-8FB5-B1672BDAD832}">
+								<Image FileName="-633797973" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{6FF41204-2519-404E-BFBE-8FBE4ACA5CA3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageGoogleMaps2" Key="{887445FD-A62B-43BE-8DD4-30772A0CD2A8}">
+								<Image FileName="218796208" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir///@21.0263056,105.8146853,13z*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxChooseDestinationOrClickO" Key="{1BE147E5-D455-45FB-B256-E57FCFAD2FBD}">
+										<Image FileName="1198583539" Left="144" Top="249" Right="408" Bottom="273" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/input[contains(@class, &apos;tactile-searchbox-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sb_ifc51&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogleMaps3" Key="{EE04C5DE-3C1E-4C7F-989A-5105B870A163}">
+								<Image FileName="1568810646" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir/@21.0263056,105.8146852,13z*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxChooseStartingPointOrClic" Key="{CDEA8996-F23D-4373-A2D0-8CE23C7A05E2}">
+										<Image FileName="1568810646" Left="144" Top="201" Right="408" Bottom="225" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//input[contains(@class, &apos;tactile-searchbox-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sb_ifc50&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogleMaps4" Key="{C543D8C4-2AAA-4661-A636-EB9AC1564A79}">
+								<Image FileName="1568810646" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir///@21.0263056,105.8146852,13z*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxChooseDestinationOrClickO" Key="{862F7127-1359-4C7B-A8D6-002A905FA87E}">
+										<Image FileName="276785718" Left="144" Top="249" Right="408" Bottom="273" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/input[contains(@class, &apos;tactile-searchbox-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sb_ifc51&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogleMaps5" Key="{32748782-767A-4B7A-BB8F-B3FB02A88CFD}">
+								<Image FileName="1568810646" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir/co+nhue//@21.0263056,105.8146852,13z*" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageGoogleMaps6" Key="{F62CDBD3-71D9-48D6-9238-4E6F9AB31F08}">
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir/co+nhue//@21.0263056,105.8146853,13z*" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageGoogleMaps7" Key="{2A208A16-33A6-4B42-9C5D-13ACB7624A0E}">
+								<Image FileName="173746825" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir/@21.0285126,105.797854,13z*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxChooseStartingPointOrClic" Key="{F2BD8B9C-3A51-4B79-9E4C-0DB2677D6C2C}">
+										<Image FileName="173746825" Left="144" Top="201" Right="374" Bottom="225" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//input[contains(@class, &apos;tactile-searchbox-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sb_ifc50&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogleMaps8" Key="{5B92A5FC-1F95-46F8-991A-59106E83DE16}">
+								<Image FileName="173746825" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir///@21.0285126,105.797854,13z*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonSearch" Key="{2FF5068B-C1C4-4C6E-A99F-41C9851C46B8}">
+										<Image FileName="1371076641" Left="374" Top="193" Right="408" Bottom="233" />
+										<TypeInfo Item0="{06B56628-4BB3-4636-BCBA-C12EC2F4B0E4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//button[@aria-label=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//button[contains(@class, &apos;mL3xi&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxChooseDestinationOrClickO" Key="{A6CAF94D-5056-45FE-9970-D2A91CFB2D47}">
+										<Image FileName="-172663186" Left="144" Top="249" Right="374" Bottom="273" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/input[contains(@class, &apos;tactile-searchbox-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sb_ifc51&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxChooseStartingPointOrClic" Key="{8BBE3E80-F3AE-45EA-B658-BD8391D5B123}">
+										<Image FileName="1587396428" Left="144" Top="201" Right="408" Bottom="225" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//input[contains(@class, &apos;tactile-searchbox-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sb_ifc50&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogleMaps9" Key="{BFB239DB-186E-4C30-878D-F74B1A8A397F}">
+								<Image FileName="173746825" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir/co+nhue//@21.0285126,105.797854,13z*" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageCoNhueBacTuLiemHanoiVietnamT" Key="{A8CF719D-D42F-4F58-9D0F-9023791D11C6}">
+								<Image FileName="-1742016960" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir/Co+Nhue,+Bac+Tu+Liem,+Hanoi,+Vietnam/THE+NINE+TOWER,+9+Ph%E1%BA%A1m+V%C4%83n+%C4%90%E1%BB%93ng,+Mai+D%E1%BB%8Bch,+C%E1%BA%A7u+Gi%E1%BA%A5y,+H%C3%A0+N%E1%BB%99i+10000,+Vietnam/@21.04931,105.7704594,15z/data*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel6Min" Key="{E93BB675-73C9-41D5-A57D-3402E0781457}">
+										<Image FileName="-1742016960" Left="416" Top="483" Right="456" Bottom="507" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div/div[@role=&apos;link&apos;]/div/div/div/div[contains(@class, &apos;Fk3sm&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{03EC2366-A4F4-4356-8B0C-447884890931}">
+										<Image FileName="1735033646" Left="144" Top="249" Right="408" Bottom="273" />
+										<TypeInfo Item0="{3EE52B78-FA7E-4A4C-AE4D-B9A393897D42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/input[contains(@class, &apos;tactile-searchbox-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sb_ifc51&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel6Min2" Key="{E315E6A6-1CDB-41DD-B72E-D3A3B3402BC1}">
+										<Image FileName="750701562" Left="404" Top="483" Right="456" Bottom="531" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div/div[@role=&apos;link&apos;]/div/div/div[contains(@class, &apos;XdKEzd&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFastestRouteNowDueToTraffic" Key="{DF579B49-E064-464E-ADDB-09585219BE9C}">
+										<Image FileName="-264511135" Left="144" Top="511" Right="456" Bottom="551" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div/div[@role=&apos;link&apos;]/div/div/div[contains(@class, &apos;ue5qRc&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCoNhueBacTuLiemHanoiVietnamT2" Key="{FA636089-2441-415E-8D3C-659D1ACE34D9}">
+								<Image FileName="-1742016960" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir/Co+Nhue,+Bac+Tu+Liem,+Hanoi,+Vietnam/THE+NINE+TOWER,+9+Ph%E1%BA%A1m+V%C4%83n+%C4%90%E1%BB%93ng,+Mai+D%E1%BB%8Bch,+C%E1%BA%A7u+Gi%E1%BA%A5y,+H%C3%A0+N%E1%BB%99i+10000,+Vietnam/@21.04931,105.7704594,15z/am*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeSaved" Key="{AD259062-69A4-45C4-8C64-4D11AA23B92A}">
+										<Image FileName="-318057487" Left="0" Top="121" Right="72" Bottom="1040" />
+										<TypeInfo Item0="{26C6699B-E898-41CB-966D-05C4200BA1D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Saved&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;list&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;ODXihb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;QA0Szd&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogleMaps10" Key="{E684A6BB-0D81-42CC-9D42-BDF416418786}">
+								<Image FileName="-1742016960" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{1BE3153D-40F3-4FE5-8664-D18D4DB012F7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/maps/dir/Co+Nhue,+Bac+Tu+Liem,+Hanoi,+Vietnam//@21.04931,105.7704594,15z/data*" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser2" Key="{06BEE465-948C-4CE1-9A68-5E77C18E9441}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{B00669CD-92DF-4328-BFE8-93CFC6BD0B84}">
+								<Image FileName="315520546" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{6FF41204-2519-404E-BFBE-8FBE4ACA5CA3}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{10FE2D17-3166-4196-AD86-D32F79316896}">
+										<Image FileName="-1619913018" Left="0" Top="84" Right="1876" Bottom="1040" />
+										<TypeInfo Item0="{90EA3E27-70A9-4D10-8CA6-EC1C30FFCEF6}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{AB6A34CF-2507-4A1D-AA88-5E35DC7CF0DC}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{F16FC708-862B-4954-8210-EE10E612CE3D}">
+								<Image FileName="781750679" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{5733CBAF-CC93-460A-BF7D-4EBF3BA41DDF}">
+										<Image FileName="781750679" Left="382" Top="0" Right="1663" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{656990AD-D243-4220-B15F-5780D72EA7DD}">
+												<Image FileName="781750679" Left="384" Top="0" Right="1663" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{DA032EE4-F486-4B6A-8742-1B60423F017C}">
+														<Image FileName="781750679" Left="384" Top="0" Right="1663" Bottom="40" />
+														<TypeInfo Item0="{90EA3E27-70A9-4D10-8CA6-EC1C30FFCEF6}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{B4D8FC28-9782-41F7-AE7E-2D9E4D313F2C}">
+			<Child Name="BrowserWindow" Owner="{7EBD08D4-CA48-4BBB-904A-C1D7268B755B}" />
+			<Child Name="pageHNgDNSDNgTestcompleteKiMThWe" Owner="{4813D8C0-1FD8-42A6-9131-147B86DC6B62}">
+				<Child Name="panelTrNhPhTVideoYoutubeCh" Owner="{26021084-4E13-4EAE-963B-A83CFECF22EA}" />
+			</Child>
+			<Child Name="pageFacebookNgNhPHoCNgK" Owner="{F47BC385-9EEF-489C-BB7A-94C8E06360FF}">
+				<Child Name="formU02H7" Owner="{C93DF608-E056-441F-B41D-D68CADE6445D}">
+					<Child Name="textboxEmailHoCSINThoI" Owner="{2A0BA249-0A1F-4A2C-9B52-50F09EB422F7}" />
+					<Child Name="passwordboxMTKhU" Owner="{58E60749-2FCD-40F4-B6A0-B3DF0E3EA018}" />
+				</Child>
+			</Child>
+			<Child Name="pageGemVietnamTMTrNGoogle" Owner="{6BD1CC50-C9EB-4EEF-AAC3-A82F1D5F758E}">
+				<Child Name="panelResultStats" Owner="{FB59A8E0-4BBA-40F3-B8DD-65C57E54C32D}" />
+			</Child>
+		</Child>
+		<Child Name="chrome" Owner="{08B5F4C4-173D-4EED-86CA-D33312745F45}">
+			<Child Name="pageFindWebObjectsTestcompleteDo" Owner="{31EC337C-35FE-469A-9532-90724ADF6264}">
+				<Child Name="cell" Owner="{3E67261D-A217-4E72-B37C-983032B56732}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{B24636F4-4EB3-4C9D-AA1B-959A22611141}" />
+			<Child Name="pageWwwGoogleCom" Owner="{F5517F5F-92E6-403A-8469-40B42E918DF9}">
+				<Child Name="formSearch" Owner="{E395AD13-087E-4C5E-BC4F-90928C5CA0B1}">
+					<Child Name="textareaSearch" Owner="{C3A74DF0-EDDC-4F05-9F80-181F2D2FA9F2}" />
+				</Child>
+			</Child>
+			<Child Name="pageSearch" Owner="{1F85BD85-4ECB-4418-B462-12C00A982FF1}">
+				<Child Name="panelAbout32700000Results" Owner="{E98CEE11-FFDB-456E-9C07-44BF5C9AD226}" />
+				<Child Name="panelCnt" Owner="{8848A03C-AD55-4AC8-9310-19FEDF0B1435}" />
+				<Child Name="panelResultStats" Owner="{E0FEFA16-9D70-4D74-8B8A-179638A20BBA}" />
+				<Child Name="panelCenterCol" Owner="{89192901-09A6-48F6-B1BC-0C24D134F5AD}" />
+				<Child Name="textnodeGsr" Owner="{DD31EE31-525A-46EF-9B21-26D75AEF1E04}" />
+				<Child Name="panelResultStats2" Owner="{6569F9DF-0C66-4601-B3A4-F3F7ED25A854}" />
+			</Child>
+			<Child Name="pageGoogle" Owner="{F2B36CF0-EB02-4777-94E0-08003EEFBFEB}">
+				<Child Name="formSearch" Owner="{B2DF264B-A5CF-4D95-9821-577032CC83D2}">
+					<Child Name="textareaTMKiM" Owner="{9C4CF7D4-7337-45A9-B5B7-7EC0A441D078}" />
+				</Child>
+			</Child>
+			<Child Name="pageGoogleMaps" Owner="{A849CFBD-50F0-4F65-B57C-EF64A0F5B896}">
+				<Child Name="textboxChooseStartingPointOrClic" Owner="{BBF1E12A-0DC5-4C74-B1A8-EF447A2058D2}" />
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{EF0DD031-E43A-41D9-8FB5-B1672BDAD832}" />
+			<Child Name="pageGoogleMaps2" Owner="{887445FD-A62B-43BE-8DD4-30772A0CD2A8}">
+				<Child Name="textboxChooseDestinationOrClickO" Owner="{1BE147E5-D455-45FB-B256-E57FCFAD2FBD}" />
+			</Child>
+			<Child Name="pageGoogleMaps3" Owner="{EE04C5DE-3C1E-4C7F-989A-5105B870A163}">
+				<Child Name="textboxChooseStartingPointOrClic" Owner="{CDEA8996-F23D-4373-A2D0-8CE23C7A05E2}" />
+			</Child>
+			<Child Name="pageGoogleMaps4" Owner="{C543D8C4-2AAA-4661-A636-EB9AC1564A79}">
+				<Child Name="textboxChooseDestinationOrClickO" Owner="{862F7127-1359-4C7B-A8D6-002A905FA87E}" />
+			</Child>
+			<Child Name="pageGoogleMaps5" Owner="{32748782-767A-4B7A-BB8F-B3FB02A88CFD}" />
+			<Child Name="pageGoogleMaps6" Owner="{F62CDBD3-71D9-48D6-9238-4E6F9AB31F08}" />
+			<Child Name="pageGoogleMaps7" Owner="{2A208A16-33A6-4B42-9C5D-13ACB7624A0E}">
+				<Child Name="textboxChooseStartingPointOrClic" Owner="{F2BD8B9C-3A51-4B79-9E4C-0DB2677D6C2C}" />
+			</Child>
+			<Child Name="pageGoogleMaps8" Owner="{5B92A5FC-1F95-46F8-991A-59106E83DE16}">
+				<Child Name="buttonSearch" Owner="{2FF5068B-C1C4-4C6E-A99F-41C9851C46B8}" />
+				<Child Name="textboxChooseDestinationOrClickO" Owner="{A6CAF94D-5056-45FE-9970-D2A91CFB2D47}" />
+				<Child Name="textboxChooseStartingPointOrClic" Owner="{8BBE3E80-F3AE-45EA-B658-BD8391D5B123}" />
+			</Child>
+			<Child Name="pageGoogleMaps9" Owner="{BFB239DB-186E-4C30-878D-F74B1A8A397F}" />
+			<Child Name="pageCoNhueBacTuLiemHanoiVietnamT" Owner="{A8CF719D-D42F-4F58-9D0F-9023791D11C6}">
+				<Child Name="panel6Min" Owner="{E93BB675-73C9-41D5-A57D-3402E0781457}" />
+				<Child Name="textbox" Owner="{03EC2366-A4F4-4356-8B0C-447884890931}" />
+				<Child Name="panel6Min2" Owner="{E315E6A6-1CDB-41DD-B72E-D3A3B3402BC1}" />
+				<Child Name="panelFastestRouteNowDueToTraffic" Owner="{DF579B49-E064-464E-ADDB-09585219BE9C}" />
+			</Child>
+			<Child Name="pageCoNhueBacTuLiemHanoiVietnamT2" Owner="{FA636089-2441-415E-8D3C-659D1ACE34D9}">
+				<Child Name="textnodeSaved" Owner="{AD259062-69A4-45C4-8C64-4D11AA23B92A}" />
+			</Child>
+			<Child Name="pageGoogleMaps10" Owner="{E684A6BB-0D81-42CC-9D42-BDF416418786}" />
+		</Child>
+		<Child Name="browser2" Owner="{06BEE465-948C-4CE1-9A68-5E77C18E9441}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{B00669CD-92DF-4328-BFE8-93CFC6BD0B84}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{10FE2D17-3166-4196-AD86-D32F79316896}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{AB6A34CF-2507-4A1D-AA88-5E35DC7CF0DC}">
+			<Child Name="wndShell_TrayWnd" Owner="{F16FC708-862B-4954-8210-EE10E612CE3D}">
+				<Child Name="ReBarWindow32" Owner="{5733CBAF-CC93-460A-BF7D-4EBF3BA41DDF}">
+					<Child Name="MSTaskSwWClass" Owner="{656990AD-D243-4220-B15F-5780D72EA7DD}">
+						<Child Name="MSTaskListWClass" Owner="{DA032EE4-F486-4B6A-8742-1B60423F017C}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,28 @@
+﻿const angularPage = require("AngularPage");
+const browser = Sys.Browser("chrome");
+var page = browser.Page("https://www.google.com/maps/dir/*");
+
+class DirectionPage extends angularPage.AngularPage{
+  
+  constructor(){
+    super()
+    }
+      
+  enterAddress(start, address){
+    this.printMessage("From: " + start + " to: " + address);
+    var startPoint = page.FindElement("//div//input[contains(@class, 'tactile-searchbox-input')]");
+    startPoint.Click();
+    startPoint.Keys(start);
+
+    var endPoint = page.FindElement("//div[2]/div/div/div/input[contains(@class, 'tactile-searchbox-input')]");
+    endPoint.Click();
+    endPoint.Keys(address + "[Enter]");
+
+  }
+  
+  checkLength(result){
+    aqObject.CheckProperty(page.FindElement("//div[text()='2.4 km']"), "contentText", cmpEqual, result)
+  }
+}
+
+module.exports.DirectionPage = DirectionPage

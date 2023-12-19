@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="pages">
+			<child name="AngularPage" key="{7C777B78-2F76-4D5A-9CCA-0AF2D58CB171}" path="AngularPage.js" />
+			<child name="BasePage" key="{737571C3-5A3D-4A03-997E-8D8743A2F3BD}" path="BasePage.js" />
+			<child name="DirectionPage" key="{9EBCCE4D-1DA9-4DF7-846F-C30AE5650A6C}" path="DirectionPage.js" />
+		</folder>
+		<folder name="step_definitions">
+			<child name="GEM_Vietnam_step" key="{9C0C572D-0272-4A0F-AE59-DC58D6982A7E}" path="GEM_Vietnam_step.js" />
+			<child name="Direction_step" key="{E154BCC9-22B5-4871-A0AC-723055088A2D}" path="Direction_step.js" />
+		</folder>
+	</children>
+</Root>

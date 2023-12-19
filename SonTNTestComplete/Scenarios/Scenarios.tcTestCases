@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Feature Path="Search_keywords_GEM_VietNam.feature" />
+	<Feature Path="Direction_google_map.feature" />
+</Scenarios>

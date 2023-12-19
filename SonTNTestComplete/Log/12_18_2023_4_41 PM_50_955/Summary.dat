@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;textboxChooseStartingPointOrClic&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="15494"/>
+						<Prp name="duration" type="I" value="15494"/>
+						<Prp name="starttime" type="D" value="45278.6957334606"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADUAOABDADQANgA3ADYALQBDAEEARgBDAC0ANABDADEARgAtADgAQwBFAEIALQAwAEIAMgA4AEMANwBFADkAQgA4AEEAQwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="Direction from Co Nhue to GEM viet nam"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="duration" type="I" value="15494"/>
+				<Prp name="starttime" type="D" value="45278.6957334606"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="SonTNTestComplete"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="name" type="S" value="SonTNTestComplete"/>
+		<Prp name="stop" type="D" value="45278.6959151273"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="host" type="S" value="SONTN"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="starttime" type="D" value="45278.6957287269"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="Direction from Co Nhue to GEM viet nam"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="key" type="S" value="{34A1C4A2-1588-405B-933F-597EE56CA335}"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="user" type="S" value="sontn"/>
+	</Node>
+</Nodes>

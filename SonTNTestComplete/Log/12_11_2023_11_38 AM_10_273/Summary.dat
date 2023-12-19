@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The page 'https://www.google.com.vn/search?q=GEM+vietnam&amp;sca_esv=589677336&amp;source=hp&amp;ei=V5F2ZZS-Ie6m2roP2uG02Ak&amp;iflsig=AO6bgOgAAAAAZXafZ00cdMr9GS-df3IMedzkA_TN9bOy&amp;ved=0ahUKEwjUxfiZx4aDAxVuk1YBHdowDZsQ4dUDCAo&amp;uact=5&amp;oq=GEM+vietnam&amp;gs_lp=Egdnd3Mtd2l6IgtHRU0gdmlldG5hbTIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHkisBlAAWOUEcAB4AJABAJgBWaABwAaqAQIxMbgBA8gBAPgBAcICChAAGIAEGIoFGEPCAgsQABiABBixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgIQEC4YgAQYigUYQxjHARivAcICFhAuGIAEGIoFGEMYsQMYgwEYxwEYrwHCAgsQLhiABBixAxiDAcICCBAuGIAEGLEDwgIQEAAYgAQYigUYQxixAxiDAcICCBAAGIAEGLEDwgIUEC4YgAQYigUYsQMYgwEYxwEY0QPCAhYQLhhDGIMBGK8BGMcBGLEDGIAEGIoFwgIOEAAYgAQYigUYsQMYgwHCAgQQABgDwgILEC4YgAQYxwEYrwHCAg0QLhiABBixAxiDARgKwgINEAAYgAQYsQMYgwEYCsICDRAuGIMBGLEDGIAEGArCAgcQABiABBgKwgIFEC4YgATCAgoQABiABBixAxgKwgIHEC4YgAQYCg&amp;sclient=gws-wiz' was not found."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45271.4848450463"/>
+						<Prp name="durationwithoutchildren" type="I" value="12023"/>
+						<Prp name="duration" type="I" value="12023"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADkANwBFADQANwBBADUALQA5AEIANQA3AC0ANABCADcAMAAtADgANQBCAEIALQA1ADEANAA5ADUAMAAwAEYAMQBFADQAOAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="Google search GEM"/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="45271.4848450463"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="12023"/>
+				<Prp name="name" type="S" value="SonTNTestComplete"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="testname" type="S" value="Google search GEM"/>
+		<Prp name="name" type="S" value="SonTNTestComplete"/>
+		<Prp name="stop" type="D" value="45271.4849850694"/>
+		<Prp name="starttime" type="D" value="45271.4848411806"/>
+		<Prp name="key" type="S" value="{270A9DE9-1CC0-44C3-A26F-617EFD18958E}"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="host" type="S" value="SONTN"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="sontn"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+	</Node>
+</Nodes>

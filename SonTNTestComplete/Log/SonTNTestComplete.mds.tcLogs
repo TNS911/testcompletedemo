@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45278.5543191088"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5B91F1A1-6313-4DE1-BD33-2BC2CBEC8C85}"/>
+				<Prp name="nameofroot" type="S" value="Direction from Co Nhue to GEM viet nam"/>
+				<Prp name="relpath" type="S" value="12_18_2023_1_18 PM_13_171\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45278.5548364236"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C56AB9C2-ACAC-42ED-B984-C19BA7A94E68}"/>
+				<Prp name="nameofroot" type="S" value="Direction from Co Nhue to GEM viet nam"/>
+				<Prp name="relpath" type="S" value="12_18_2023_1_18 PM_57_867\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45279.4586315741"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{523C6E1D-5536-40AD-B569-452CB7B532FF}"/>
+				<Prp name="nameofroot" type="S" value="Direction_google_map"/>
+				<Prp name="relpath" type="S" value="12_19_2023_11_00 AM_25_768\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45279.4594813773"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{370F6171-49DE-4B7E-8439-AB81419EBBDD}"/>
+				<Prp name="nameofroot" type="S" value="Direction_google_map"/>
+				<Prp name="relpath" type="S" value="12_19_2023_11_01 AM_39_191\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45279.477143669"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EF942087-2D9C-44D4-90B3-B54E4326F05B}"/>
+				<Prp name="nameofroot" type="S" value="Direction from Co Nhue to GEM viet nam"/>
+				<Prp name="relpath" type="S" value="12_19_2023_11_27 AM_05_213\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

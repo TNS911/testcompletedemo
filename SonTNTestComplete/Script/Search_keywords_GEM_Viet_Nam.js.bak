@@ -1,0 +1,22 @@
+﻿Given("I navigate to {arg}", function (param1){
+  Browsers.Item(btChrome).Run("https://www.google.com/");
+  Aliases.chrome.BrowserWindow.Maximize();
+});
+
+When("I search for a keyword {arg}", function (param1){
+  let browser = Aliases.chrome;
+  browser.BrowserWindow.Maximize();
+  browser.pageWwwGoogleCom.formSearch.textareaSearch.Keys("GEM vietnam");
+});
+
+Then("I should see the number of results is {arg}", function (param1){
+  let browser = Aliases.chrome;
+  browser.BrowserWindow.Maximize();
+  let textarea = browser.pageWwwGoogleCom.formSearch.textareaSearch;
+  textarea.Click();
+  textarea.Keys("[Enter]");
+  let page = browser.pageSearch;
+  page.Wait();
+  page.panelResultStats.Drag(2, 21, 274, -4);
+  aqObject.CheckProperty(Aliases.chrome.pageSearch.FindElement("#result-stats"), "contentText", cmpContains, param1);
+});

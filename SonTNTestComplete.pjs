@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{E70D9391-4AD3-457F-81FA-9670C4A5C4C6}">
+	<children>
+		<child name="SonTNTestComplete" key="{641376B6-54D5-4D31-BAA0-AF78279ADB0C}" path="SonTNTestComplete\SonTNTestComplete.mds" />
+	</children>
+	<testItems key="{FC55B169-0817-489D-BD45-9B60B86DD9D1}">
+		<children>
+			<testItem key="{641376B6-54D5-4D31-BAA0-AF78279ADB0C}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{A5595648-1226-4D12-BDE1-24A0C7059D49}" />
+	<analysis key="{012BCEB5-3BCE-425A-B68D-3CAB52C3F157}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

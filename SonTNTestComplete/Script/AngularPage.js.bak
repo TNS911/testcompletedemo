@@ -1,0 +1,28 @@
+﻿const basePage = require("BasePage");
+
+class AngularPage extends basePage.BasePage{
+  constructor(){
+    super()
+  }
+  
+  search(text){
+    this.printMessage("Keyword: " + text);
+    let textarea = Aliases.chrome.pageWwwGoogleCom.formSearch.textareaSearch;
+    textarea.Click();
+    textarea.Keys(text + "[Enter]");
+  }
+  
+  checkValue(results){
+    aqObject.CheckProperty(Aliases.chrome.pageSearch.panelResultStats, "contentText", cmpContains, results);
+  }
+  
+  findDirection(){
+    Aliases.chrome.pageSearch.FindElement("//div[.='Chỉ đường']").Click();
+    var page = browser.Page("*");
+    var inputAddress = page.FindElement("//div//input[contains(@class, 'tactile-searchbox-input')]");
+    
+  }
+  
+}
+
+module.exports.AngularPage = AngularPage
